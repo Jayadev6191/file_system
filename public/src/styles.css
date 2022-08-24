@@ -1,0 +1,105 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .mainContainer {
+    width: 95vw;
+    height: 100vh;
+    margin: 2em 2em 2em 2em;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .folderTreePane {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .contentPane {
+    width: 70%;
+    height: 100%;
+    border-left: 1px solid #dcdcdc;
+  }
+  
+  .header {
+    height: 3em;
+    align-items: center;
+  }
+  
+  .headerName {
+    padding-left: 4em;
+    width: 60%;
+    text-align: left !important;
+  }
+  
+  .headerDateModifed {
+    width: 20%;
+  }
+  
+  .contentName {
+    padding-left: 4em;
+    width: 60%;
+    text-align: left !important;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    color: gray;
+    font-weight: normal;
+  }
+  
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .rowName {
+    text-align: left;
+    padding-left: 4em;
+  }
+  
+  .folderSVG {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+  }
+  
+  .fileSVG {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+  }
+  
+  .DownCaret {
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+  }
+  .RightCaret {
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+  }
+  
+  .list {
+    margin-top: 0.5em;
+  }
+  
+  .unorrdered {
+    list-style: none;
+  }
+  
